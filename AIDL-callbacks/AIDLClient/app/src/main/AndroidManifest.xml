@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ljd.aidl.client">
+
+    <permission
+        android:name="com.ljd.aidl.permission.ACCESS_CALCULATE_SERVICE"
+        android:protectionLevel="signatureOrSystem" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ljd.aidl.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ljd.aidl.activity.Demo1Activity" />
+        <activity android:name="com.ljd.aidl.activity.Demo2Activity" />
+        <activity android:name="com.ljd.aidl.activity.Demo3Activity"></activity>
+    </application>
+
+</manifest>
